@@ -1,6 +1,6 @@
-function isEnCap(pros, coize) {
+function isEnoughCapacity(products, containerSize) {
 
-    var sumProducts;
+    let sumProducts = 0;
 
     for (key in products) {
         
